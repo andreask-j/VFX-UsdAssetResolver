@@ -287,7 +287,7 @@ class UpdateManager(object):
         if current_platform == "Windows" or current_platform.startswith("CYGWIN"):
             return "windows"
         elif current_platform == "Darwin":
-            return "macos"
+            return "linux"
         elif current_platform == "Linux":
             return "linux"
         else:
